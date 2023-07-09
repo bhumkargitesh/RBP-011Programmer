@@ -1,3 +1,4 @@
+// Write a program to check two strings are equal or not.
 public class StringEqualCheak {
 
     public static void main(String[] args){
