@@ -1,6 +1,6 @@
 //1) Java Program to print the elements of an array
 public class Day10_practice {
-   public static void main(String[] args) {
+  public static void main(String[] args) {
 
         // Ques 1) 1) Java Program to print the elements of an array.
 
@@ -146,18 +146,18 @@ public class Day10_practice {
         */
 
 
-       /*   // Ques 7) Java Program to print the elements of an array present on odd position
+        // Ques 7) Java Program to print the elements of an array present on odd position
 
-          int[] arr = new int[]{1, 2, 3, 4, 5};
-          System.out.println("Elements of given array present on odd position: ");
+//          int[] arr = new int[]{1, 2, 3, 4, 5};
+//          System.out.println("Elements of given array present on odd position: ");
+//
+//          for (int i = 0; i < arr.length; i = i + 2) {
+//              System.out.println(arr[i]);
+//          }
+//      }
+//  }
 
-          for (int i = 0; i < arr.length; i = i + 2) {
-              System.out.println(arr[i]);
-          }
-      }
-  }
 
-        */
 
 
         /*  // Ques 8) Java Program to print the duplicate elements of an array
