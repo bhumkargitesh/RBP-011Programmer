@@ -5,8 +5,8 @@ public class Logical {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the age value from user");
         int age = sc.nextInt();
-        //if (age >=18 && age <= 60){
-            if (age >=18 || age <= 60){
+        if (age >=18 && age <= 60){
+         //   if (age >=18 || age <= 60){
             System.out.println("Eligible");
         }
         else{
