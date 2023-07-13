@@ -12,20 +12,20 @@ public class ArraysD10 {
         arr[8] = 120;
         arr[9] = 140;
 
-//         int max = arr[0];
-//
-//        for (int i = 1; i < arr.length; i++) {
-//            if (arr[i] > max) {
-//                max = arr[i];
-//            }
-//        }
-//        System.out.println(max);
+         int max = arr[0];
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        System.out.println(max);
+
+     //   for (int i = 0; i < arr.length; i++) {
+         //   System.out.println(arr[i]);
         }
     }
-}
+
 
 //    public static void main(String[] args) {
 //        int arr[][] = new int[3][3];
