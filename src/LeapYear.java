@@ -7,9 +7,9 @@ public class LeapYear {
         System.out.println("Enter the year");
         int year = sc.nextInt();
         if (isleapyear(year)){
-            System.out.println(year + "yes,is a leap year" );
+            System.out.println(year + "   yes,is a leap year" );
         }else{
-            System.out.println(year + "no, it is not leap year" );
+            System.out.println(year + "   no, it is not leap year");
         }
     }
     public static boolean isleapyear(int year){
