@@ -55,16 +55,16 @@ class BhagvatGita extends Books {
     @Override
     void sell() {
         System.out.println("BhagvatGita is sold");
-        Disciple d1 = new Disciple();
-        d1.purchase();
+        Disciple gita = new Disciple();
+        gita.purchase();
         System.out.println();
     }
 
     @Override
     void preach() {
         System.out.println("BhagvatGita is preached");
-        Disciple d1 = new Disciple();
-        d1.read();
+        Disciple gita = new Disciple();
+        gita.read();
     }
 }
 class Disciple{
