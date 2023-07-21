@@ -14,6 +14,8 @@ public class ArrayAssignment {
             arr[i] = sc.nextInt();
 
         }
+
+        // minimum value
         int minValue = arr[0];
 
 
