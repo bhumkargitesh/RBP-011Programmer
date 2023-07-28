@@ -17,7 +17,6 @@ import java.util.Scanner;
             int num3 = scan.nextInt();
 
             customList.add(num1);
-            
             addElements(customList, num2, num3);
 
             // Printing the custom LinkedList
@@ -31,7 +30,5 @@ import java.util.Scanner;
             // Adding element at the 3rd position
             list.add(2, num3);
         }
-    }
-
-
+   }
 
