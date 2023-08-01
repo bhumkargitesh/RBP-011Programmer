@@ -42,7 +42,7 @@ public class Review_2 {
         studentMap.put(student1.ID, student1);
         studentMap.put(student2.ID, student2);
 
-        // Retrieve a student by ID
+        // Retrieve a student  ID key by using get key
         int studentID = 2;
         Students student = studentMap.get(studentID);
         if (student != null) {
