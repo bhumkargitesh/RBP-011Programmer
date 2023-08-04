@@ -7,6 +7,7 @@ public class AddressBook {
         // Adding contacts to the address book
         addressBook.addContact(new Person("gitesh", "pune", "xyzabd"));
         addressBook.addContact(new Person("ganesh", "latur","abcd"));
+        System.out.println(addressBook);
     }
 
          private ArrayList<Person> Person;
