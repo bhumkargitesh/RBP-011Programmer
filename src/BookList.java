@@ -17,8 +17,8 @@ public class BookList {
         cart.add(new Book("Author9", "abc9", "Genre9", 7.99, "Publication9"));
         cart.add(new Book("Author10", "abc10", "Genre10", 54.99, "Publication10"));
 
-       // cart.forEach(p-> System.out.println(p));
-        // Printing the details of each book
+            cart.forEach(p-> System.out.println(p));
+           // Printing the details of each book
            for (Book book: cart) {
             System.out.println("Author: " + book.authorName);
             System.out.println("Book Name: " + book.bookName);
