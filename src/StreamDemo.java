@@ -55,8 +55,7 @@ class SchoolStudents{
         return
                 "name='" + name + '\'' +
                         ", rollNo=" + rollNo +
-                        ", totalMarks=" + totalMarks
-                ;
+                        ", totalMarks=" + totalMarks;
     }
 }
 

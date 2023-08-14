@@ -13,6 +13,7 @@ public class ExceptionHandlingDemo {
     }
     class StringMatchException extends Exception{
         public StringMatchException(String s) {
+
             super(s);
         }
     }

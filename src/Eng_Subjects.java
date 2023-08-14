@@ -12,13 +12,13 @@ import java.util.List;
             this.subjectName = subjectName;
         }
 //using get syntax for retrieve data(for keys and values)
-        public String getSubjectCode() {
-            return subjectCode;
-        }
-
-        public String getSubjectName() {
-            return subjectName;
-        }
+//        public String getSubjectCode() {
+//            return subjectCode;
+//        }
+//
+//        public String getSubjectName() {
+//            return subjectName;
+//        }
 
         // Override toString() to easily display subject information
         @Override
@@ -39,8 +39,8 @@ import java.util.List;
             subjectsList.add(new Subject("MECH401", "Mechanical Engineering"));
 
             // Displaying the list of subjects
-            for (Subject subject : subjectsList) {
-                System.out.println(subject);
+            for (Subject s : subjectsList) {
+                System.out.println(s);
             }
         }
     }

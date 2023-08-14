@@ -21,8 +21,12 @@ public class HotelManagement {
         HotelManagement h1 = new HotelManagement();
         h1.putCustomer(101,rooms,roomAllotment);
         System.out.println(roomAllotment);
-        h1.putCustomer(101,rooms,roomAllotment);
+        h1.putCustomer(102,rooms,roomAllotment);
         System.out.println(roomAllotment);
+        //HashMap<Integer,Customer> hm = new HashMap<>();
+        //hm.put(101,new Customer(""));
+
+
 
     }
 

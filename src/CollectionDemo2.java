@@ -1,10 +1,9 @@
 import java.util.LinkedList;
-import java.util.HashMap;
 public class CollectionDemo2 {
     public static void main(String[] args) {
 
         LinkedList<HotelRoom> l1 = new LinkedList<>();
-        HashMap<Integer,HotelRoom> hmap = new HashMap<>();
+       // HashMap<Integer,HotelRoom> hmap = new HashMap<>();
      //   hmap.put(101,new HotelRoom(101,"gitesh"))
 
 
